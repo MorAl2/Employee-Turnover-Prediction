@@ -1,0 +1,47 @@
+After fit features: RF
+
+[(0.3413, 'satisfaction_level'), 
+(0.1946, 'time_spend_company'),
+(0.1626, 'average_montly_hours'), 
+(0.1221, 'last_evaluation'),
+(0.1183, 'number_project'), 
+(0.0118, 'Work_accident'), 
+(0.0092, 'salary_low'), 
+(0.0055, 'Dep_sales'),
+(0.0054, 'Dep_technical'),
+(0.005, 'salary_high'), 
+(0.0041, 'Dep_support'),
+(0.0035, 'salary_medium'),
+(0.0027, 'promotion_last_5years'),
+(0.0026, 'Dep_RandD'), 
+(0.0026, 'Dep_IT'), 
+(0.0025, 'Dep_hr'), 
+(0.0022, 'Dep_accounting'),
+(0.0015, 'Dep_product_mng'),
+(0.0015, 'Dep_marketing'), 
+(0.0011, 'Dep_management')]
+
+
+corr: 
+
+satisfaction_level: -0.3883749834241121
+Work_accident: -0.15462163370513443,
+salary_high: -0.12092946375604395,
+salary_medium: -0.06883296808670371,
+promotion_last_5years: -0.06178810657920049,
+Dep_RandD: -0.04659565116671602,
+Dep_management: -0.04603539070568193,
+Dep_product_mng: -0.011029152078133193,
+Dep_IT: -0.01092482732032256,
+Dep_marketing: -0.0008593040436757558,
+last_evaluation: 0.006567120447531427,
+Dep_sales: 0.009923407033961005,
+Dep_support: 0.010700118012871893,
+Dep_accounting: 0.015201150667721182,
+Dep_technical: 0.02007610493435633,
+number_project: 0.023787185071774745,
+Dep_hr: 0.028248748115931758,
+average_montly_hours: 0.07128717878330088,
+salary_low: 0.13472197414241951, 
+time_spend_company: 0.14482217493938626, 
+left: 1.0
