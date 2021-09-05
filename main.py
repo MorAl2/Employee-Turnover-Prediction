@@ -35,7 +35,7 @@ def main():
     # print(corrMatt['left'])
     mask = np.array(corrMatt)
     mask[np.tril_indices_from(mask)] = False
-    # thalachh maximum heart rate achieved has the highest correlation with the output
+    
     plt.figure(figsize=(12, 20))
     plt.title('Pearson Correlation of Features', y=1.05, size=15)
     sns.heatmap(corrMatt, linewidths=0.6, vmax=1.0, mask=mask,
